@@ -1,0 +1,65 @@
+/* Reset default margin and padding for all elements */
+body, h1, form, label, select, input {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a background color for the entire page */
+body {
+    background-color: #fff5e1;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the content on the page */
+h1 {
+    text-align: center;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px; /* Add margin to create space below the heading */
+    color: #333;
+}
+
+/* Style the form container */
+#productForm {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the form contents horizontally */
+}
+
+/* Style the label and select elements */
+label, select {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #555;
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+    background-color: #ff8c42;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Add margin to move the button down */
+}
+
+input[type="submit"]:hover {
+    background-color: #ff6200;
+}
